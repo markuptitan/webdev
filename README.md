@@ -2,7 +2,7 @@
 
 ---
 
- Welcome to the official repository for my web development journey! I'm Siyabonga Samson Lukhele, also known as **@markuptitan** across various platforms. I hail from the beautiful country of South Africa, and my passion for web development began in 2019, with full dedication kicking in towards the end of 2023.
+Welcome to the official repository for my web development journey! I'm Siyabonga Samson Lukhele, also known as **@markuptitan** across various platforms. I hail from the beautiful country of South Africa, and my passion for web development began in 2019, with full dedication kicking in towards the end of 2023.
 
 ## Who Am I?
 
