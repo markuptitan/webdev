@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up &lt&gt</title>
+  </head>
+  <body>
+    <header>Sign Up To Bytehub</header>
+    <br />
+    <section id="form">
+      <form action="success.htm">
+        <label for="names">Username:</label><br /><br />
+        <input id="names" type="text" /><br /><br /><br />
+        <label for="email">Email:</label><br /><br />
+        <input id="email" type="email" /><br /><br /><br />
+        <label for="pass">Password: </label><br /><br /><input
+          id="pass"
+          type="password"
+          minlength="9"
+        /><br /><br />
+        <label for="age-group">Closest Age: </label>
+        <select name="" id="age-group">
+          <option value="" disabled selected>Select age group</option>
+          <option value="18-24">18 &hyphen; 24</option>
+          <option value="24-30">24 &hyphen; 30</option>
+          <option value="30-36">30 &hyphen; 36</option></select
+        ><br /><br />
+        <label>Gender: </label><br /><br />
+        <input type="radio" name="gender" id="male" value="male" /><label
+          for="male"
+          >Male </label
+        ><br />
+        <input type="radio" name="gender" id="female" value="female" /><label
+          for="female"
+          >Female </label
+        ><br /><br />
+        <p>Courses of interest:</p>
+        <input type="checkbox" name="lang" id="web-dev" /><label for="web-dev"
+          >Web development languages(CSS, HTML, JS)</label
+        ><br />
+        <input
+          type="checkbox"
+          name="courses"
+          value="data-science"
+          id="data-science"
+        /><label for="data-science">Data Science with Python and SQL</label
+        ><br />
+        <input type="checkbox" name="courses" id="ai-ml" /><label for="ai-ml"
+          >AI and ML with Python</label
+        ><br />
+        <input
+          type="checkbox"
+          name="courses"
+          value="gamedev"
+          id="gamedev"
+        /><label for="gamedev">Game Development with C&plus;&plus;</label><br />
+        <input type="checkbox" name="courses" value="linux" id="linux" /><label
+          for="linux"
+          >Linux Fundamentals</label
+        ><br /><br />
+        <input value="Submit" type="submit" />
+      </form>
+    </section>
+  </body>
+</html>
