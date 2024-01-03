@@ -8,17 +8,24 @@
   <body>
     <header>Sign Up To Bytehub</header>
     <br />
+    <!--Isolate form on a different section for page optimization -->
     <section id="form">
+      <!--success.htm is just a file to show that a form has been submitted..Nothing serious.-->
       <form action="success.htm">
+        <!--Create input and label for username -->
         <label for="names">Username:</label><br /><br />
         <input id="names" type="text" /><br /><br /><br />
+        <!--Create input and label for email-->
         <label for="email">Email:</label><br /><br />
         <input id="email" type="email" /><br /><br /><br />
+        <!--Create input and label for password, set length to 9 for complex passwords and use "required" attribute for strict checking-->
         <label for="pass">Password: </label><br /><br /><input
           id="pass"
           type="password"
           minlength="9"
+          required
         /><br /><br />
+        <!--Dropdown menu for age group, we choose a max of 30-36 to show that the programme accepts people under the age of 36 only.-->
         <label for="age-group">Closest Age: </label>
         <select name="" id="age-group">
           <option value="" disabled selected>Select age group</option>
@@ -26,6 +33,7 @@
           <option value="24-30">24 &hyphen; 30</option>
           <option value="30-36">30 &hyphen; 36</option></select
         ><br /><br />
+        <!--Radio button for gender-->
         <label>Gender: </label><br /><br />
         <input type="radio" name="gender" id="male" value="male" /><label
           for="male"
@@ -35,6 +43,7 @@
           for="female"
           >Female </label
         ><br /><br />
+        <!--We have included some courses below for people to choose what they wish to learn once signed up-->
         <p>Courses of interest:</p>
         <input type="checkbox" name="lang" id="web-dev" /><label for="web-dev"
           >Web development languages(CSS, HTML, JS)</label
